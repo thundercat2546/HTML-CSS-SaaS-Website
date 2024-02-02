@@ -1,0 +1,120 @@
+.div-part-six-body {
+    height: 860px;
+    display: grid;
+    grid-template-rows: 1fr 30px 1fr;
+    background-color: white;
+}
+
+.div-part-six-body-top {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    background-color: white;
+}
+
+.div-part-six-body-top-container {
+    width: 1170px;
+    height: 370px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+
+    background-color: gray;
+}
+
+.div-part-six-body-top-container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #222222;
+
+}
+
+.div-part-six-body-top-container-right {
+    background-color: #000000;
+}
+
+.div-part-six-body-top-container-right-p1 {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+}
+
+.div-part-six-body-top-container-right-p2 {
+    font-weight: 400px;
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 35px;
+    margin-left: 50px;
+    color: white;
+}
+
+.div-part-six-body-top-container-right-p3 {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+}
+
+.div-part-six-body-spacebetween {
+    background-color: white;
+}
+
+.div-part-six-body-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.div-part-six-body-bottom-container {
+    display: grid;
+    grid-template-columns: 570px 570px;
+    gap: 35px;
+}
+
+.div-part-six-body-bottom-p1 {
+    height: 290px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-part-six-body-bottom-p2 {
+    height: 290px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-part-six-body-bottom-text-1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: black;
+    margin-left: 32px;
+    margin-top: 35px;
+}
+
+.div-part-six-body-bottom-text-2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
+    margin-left: 32px;
+    margin-top: 47px;
+}
+
+.div-part-six-body-bottom-text-3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: black;
+    margin-left: 32px;
+    margin-top: 37px;
+}

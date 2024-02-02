@@ -1,0 +1,102 @@
+.div-part-five-body {
+    height: 600px;
+}
+
+.div-part-five-body {
+    display: grid;
+    grid-template-columns: 1fr 64px 1fr;
+}
+
+.div-part-five-body-left-side {
+    background-color: white;
+}
+
+.div-part-five-body-left-side-container {
+    width: 470px;
+    height: 258px;
+    float: right;
+    margin-top: 171px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-part-five-body-left-side-container-p1 {
+    height: 70px;
+}
+
+.p-part-five-body-left-side-container-p1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.div-part-five-body-left-side-container-p2 {
+    height: 115px;
+}
+
+.p-part-five-body-left-side-container-p2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.div-part-five-body-left-side-container-p3 {
+    height: 50px;
+}
+
+.p-part-five-body-left-side-container-p3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.div-part-five-body-left-side-container-p4 {
+    display: grid;
+    grid-template-columns: 26px 1fr;
+}
+
+.div-part-five-body-left-side-container-p4-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-part-five-body-left-side-container-p4-description {
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.p-part-five-body-left-side-container-p4-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.div-part-five-body-space {
+    background-color: white;
+}
+
+.div-part-five-body-right-side {
+    background-color: white;
+}
+
+.div-part-five-body-right-side-container {
+    width: 491px;
+    height: 286px;
+    float: left;
+    margin-top: 157px;
+    background-color: white;
+}
+
+.img-part-five-body-right-side-front {
+    position: absolute;
+    z-index: 2;
+    margin-top: 53px;
+}
+
+.img-part-five-body-right-side-back {
+    position: absolute;
+    z-index: 1;
+    margin-left: 91px;
+}

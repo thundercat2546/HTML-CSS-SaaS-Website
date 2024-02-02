@@ -1,0 +1,53 @@
+.div-part-eight-body {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.div-part-eight-body-container {
+    height: 300px;
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.div-part-eight-body-container-p1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 35px;
+}
+
+.div-part-eight-body-container-p2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.div-part-eight-body-container-button {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 7px;
+    border-style: solid;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.div-part-eight-body-container-button:hover {
+    opacity: 90%;
+}
+
+.div-part-eight-body-container-button:active {
+    opacity: 50%;
+}

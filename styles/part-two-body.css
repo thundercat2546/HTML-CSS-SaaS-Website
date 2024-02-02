@@ -1,0 +1,42 @@
+.div-part-two-body {
+    height: 266px;
+    display: grid;
+    grid-template-rows: 66px 200px;
+
+    background-color: #F2F2F2;
+}
+
+.div-part-two-topside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-part-two-text-container {
+    width: 425px;
+    height: 34px;
+}
+
+.p-part-two-text {
+    /* font-size: 24px; */
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.div-part-two-logo-container-parent {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-part-two-logo-container {
+    width: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-part-two-logos {
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,95 @@
+.div-part-four-body {
+    height: 600px;
+    background-color: #F2F2F2;
+}
+
+.div-part-four-body {
+    display: grid;
+    grid-template-columns: 1fr 132px 1fr;
+}
+
+.div-part-four-left {
+    background-color: #F2F2F2;
+}
+
+.div-part-four-left-container {
+    width: 400px;
+    height: 247px;
+    float: right;
+    margin-top: 175px;
+    background-color: #F2F2F2;
+}
+
+.div-part-four-left-image {
+    background-color: #F2F2F2;
+}
+
+.div-part-four-spacebetween {
+    background-color: #F2F2F2;
+}
+
+.div-part-four-right {
+    background-color: #F2F2F2;
+}
+
+.div-part-four-right-container {
+    width: 470px;
+    height: 258px;
+    margin-top: 171px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-part-four-right-container-p1 {
+    height: 65px;
+}
+
+.p-part-four-right-container-p1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.div-part-four-right-container-p2 {
+    height: 120px;
+}
+
+.p-part-four-right-container-p2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.div-part-four-right-container-p3 {
+    height: 50px;
+}
+
+.p-part-four-right-container-p3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.div-part-four-right-container-p4 {
+    display: grid;
+    grid-template-columns: 32px 1fr;
+}
+
+.div-part-four-right-container-p4-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-part-four-right-container-p4-description {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+
+.p-part-four-right-container-p4-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}

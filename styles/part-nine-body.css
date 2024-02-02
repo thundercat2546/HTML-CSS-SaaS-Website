@@ -1,0 +1,100 @@
+.div-part-nine-body {
+    background-color: white;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-part-nine-body-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 320px;
+    width: 1700px;
+    background-color: white;
+}
+
+.div-part-nine-body-left {
+    border-right: 1px solid;
+    background-color: white;
+}
+
+.div-part-nine-body-right {
+    background-color: white;
+}
+
+/* .div-part-nine-body-left-logo-text-container {
+
+} */
+
+.div-part-nine-body-left-container-2 {
+    width: 620px;
+    height: 158px;
+    margin-left: 180px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 550px;
+
+    background-color: white;
+}
+
+.div-part-nine-body-left-logo-side {
+
+    background-color: white;
+}
+
+.div-part-nine-body-left-logo-text-container {
+    background-color: white;
+}
+
+.div-part-nine-body-left-logo-text-1 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+
+.div-part-nine-body-left-logo-text-2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+
+.div-part-nine-body-left-logo-text-3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+
+.div-part-nine-body-right-main-container {
+    width: 221px;
+    height: 270px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.div-part-nine-body-right-main-container-p1 {
+    height: 174px;
+    margin-bottom: 77px;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    column-gap: 103px;
+    background-color: white;
+}
+
+.div-part-nine-body-right-main-container-p2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+
+.part-nine-text {
+    font-size: 14px;
+    line-height: 19px;
+}

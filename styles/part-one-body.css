@@ -1,0 +1,138 @@
+.div-part-one-body {
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 78px 1fr;
+    background-color: gainsboro;
+}
+
+.div-body-left-side {
+
+    background-color: white;
+}
+
+.div-body-space-between {
+
+    background-color: white;
+}
+
+.div-body-right-side {
+
+    background-color: white;
+}
+
+.div-body-left-side-container {
+    width: 422px;
+    height: 357px;
+    margin-top: 172px;
+    float: right;
+    display: grid;
+    grid-template-rows: 132px 50px 1fr 20px 60px;
+
+    background-color: gray;
+}
+
+.div-left-side-bold-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    font-weight: bolder;
+    line-height: 65.63px;
+
+    background-color: white;
+}
+
+.div-left-side-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+
+    background-color: white;
+}
+
+.div-left-side-button-place {
+    background-color: white;
+}
+
+.button-Start-free-trial {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    border-style: solid;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 60px;
+    float: left;
+}
+
+.button-Start-free-trial:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-Start-free-trial:active {
+    opacity: 50%;
+}
+
+.div-body-right-side-container {
+    width: 670px;
+    height: 480px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+    margin-top: 110px;
+    display: grid;
+    grid-template-rows: 24px 1fr;
+
+    background-color: white;
+}
+
+.div-body-right-side-container-buttons {
+    align-items: center;
+}
+
+.div-body-right-side-container-image {
+    background-color: white;
+}
+
+.button-round-buttons {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.button-round-buttons:hover {
+    background-color: black;
+}
+
+.button-round-buttons:active {
+    opacity: 50%;
+}
+
+#round-button-1 {
+    margin-left: 15px;
+}
+
+#round-button-2 {
+    margin-left: 5px;
+}
+
+#round-button-3 {
+    margin-left: 5px;
+}
+
+.img-part-one-right-side-image {
+    width: 400px;
+    height: 247px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 115px;
+    margin-left: 135px;
+}
